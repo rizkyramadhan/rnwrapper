@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'rnwrapper' do
-  # Pods for rnwrapper
+target 'butuhapa' do
+  # Pods for butuhapa
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -77,7 +77,7 @@ target 'rnwrapper' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'rnwrapperTests' do
+  target 'butuhapaTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -94,10 +94,10 @@ target 'rnwrapper' do
   end
 end
 
-target 'rnwrapper-tvOS' do
-  # Pods for rnwrapper-tvOS
+target 'butuhapa-tvOS' do
+  # Pods for butuhapa-tvOS
 
-  target 'rnwrapper-tvOSTests' do
+  target 'butuhapa-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

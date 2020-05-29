@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "rnwrapper.app"
-               BlueprintName = "rnwrapper"
-               ReferencedContainer = "container:rnwrapper.xcodeproj">
+               BuildableName = "butuhapa.app"
+               BlueprintName = "butuhapa"
+               ReferencedContainer = "container:butuhapa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "rnwrapperTests.xctest"
-               BlueprintName = "rnwrapperTests"
-               ReferencedContainer = "container:rnwrapper.xcodeproj">
+               BuildableName = "butuhapaTests.xctest"
+               BlueprintName = "butuhapaTests"
+               ReferencedContainer = "container:butuhapa.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "rnwrapper.app"
-            BlueprintName = "rnwrapper"
-            ReferencedContainer = "container:rnwrapper.xcodeproj">
+            BuildableName = "butuhapa.app"
+            BlueprintName = "butuhapa"
+            ReferencedContainer = "container:butuhapa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "rnwrapper.app"
-            BlueprintName = "rnwrapper"
-            ReferencedContainer = "container:rnwrapper.xcodeproj">
+            BuildableName = "butuhapa.app"
+            BlueprintName = "butuhapa"
+            ReferencedContainer = "container:butuhapa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

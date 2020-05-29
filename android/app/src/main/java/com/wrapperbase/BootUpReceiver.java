@@ -1,4 +1,4 @@
-package com.rnwrapper;
+package com.butuhapa;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

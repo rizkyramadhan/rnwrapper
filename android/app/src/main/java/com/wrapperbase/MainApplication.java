@@ -1,4 +1,4 @@
-package com.rnwrapper;
+package com.butuhapa;
 
 import android.app.Application;
 import android.content.Context;
@@ -12,6 +12,7 @@ import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
+import android.webkit.WebView;
 
 public class MainApplication extends NavigationApplication {
 
@@ -47,6 +48,7 @@ public class MainApplication extends NavigationApplication {
   public void onCreate() {
     super.onCreate();
     
+    WebView.setWebContentsDebuggingEnabled(true);
     initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
   }
 
@@ -65,7 +67,7 @@ public class MainApplication extends NavigationApplication {
          We use reflection here to pick up the class that initializes Flipper,
         since Flipper library is not available in release mode
         */
-        Class<?> aClass = Class.forName("com.rnwrapper.ReactNativeFlipper");
+        Class<?> aClass = Class.forName("com.butuhapa.ReactNativeFlipper");
         aClass
             .getMethod("initializeFlipper", Context.class, ReactInstanceManager.class)
             .invoke(null, context, reactInstanceManager);

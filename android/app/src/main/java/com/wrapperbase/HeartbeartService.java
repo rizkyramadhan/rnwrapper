@@ -1,4 +1,4 @@
-package com.rnwrapper;
+package com.butuhapa;
 
 import android.app.Notification;
 import android.app.PendingIntent;

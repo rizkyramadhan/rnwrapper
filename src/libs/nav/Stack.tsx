@@ -7,5 +7,20 @@ export default function (
 ): object {
   Navigation.registerComponent(name, () => component);
 
-  return component;
+  return {
+    root: {
+      stack: {
+        children: [
+          {
+            component: {
+              name,
+            },
+          },
+        ],
+        // options: {
+        //   topBar: {visible: false, height: 0},
+        // },
+      },
+    },
+  };
 }
