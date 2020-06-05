@@ -24,6 +24,7 @@
     "react-native-webview": "^9.4.0"
   },
   "devDependencies": {
+    "logkitty": "^0.7.1",
     "@babel/core": "^7.6.2",
     "@babel/runtime": "^7.6.2",
     "@bam.tech/react-native-make": "^3.0.0",
