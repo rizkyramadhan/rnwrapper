@@ -1,9 +1,10 @@
 import React from 'react';
-import BottomBar from './libs/nav/BottomBar';
-import WrapperView from './libs/ui/WrapperView';
-import config from './config';
 import {Navigation} from 'react-native-navigation';
 import AppGuest from './AppGuest';
+import config from './config';
+import JobSaya from './JobSaya';
+import BottomBar from './libs/nav/BottomBar';
+import WrapperView from './libs/ui/WrapperView';
 import MyAccount from './MyAccount';
 
 const wrapperStyle = {flex: 1, width: '100%'};
@@ -79,13 +80,7 @@ const menu = (job = false) => {
           icon: require('./assets/icons/post.png'),
           selectedIcon: require('./assets/icons/post-s.png'),
           component: () => {
-            return (
-              <WrapperView
-                url={`${url}/my-account/`}
-                style={wrapperStyle}
-                onMessage={onMessage}
-              />
-            );
+            return <JobSaya style={wrapperStyle} onMessage={onMessage} />;
           },
         },
     {

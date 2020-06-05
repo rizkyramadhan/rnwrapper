@@ -114,6 +114,7 @@ export default observer(
           style={{flex: 1, height: '100%', flexDirection: 'column', ...style}}>
           {meta.progress.show && <ProgressBar progress={meta.progress.value} />}
           <WebView
+            cacheEnabled={false}
             onScroll={(e: any) => {
               meta.refreshEnabled = e.nativeEvent.contentOffset.y === 0;
             }}
