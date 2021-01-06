@@ -10,7 +10,7 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "lodash.map": "^4.6.0",
     "mobx": "^4.15.4",
     "mobx-react-lite": "^2.0.6",
